@@ -15,8 +15,9 @@ def num_of_divisors(n):
 def num_of_primes(n):
   """
   given a positive int n, return number of primes that is <= n.
-  Use num_of_divisors() function to help determine if a number is prime:
+  You must use num_of_divisors() function to help determine if a number is prime:
   a number is a prime if its number of divisors is 2.
+  You must use a for... in range(...): style loop for this function.
   """
   return 0
 
