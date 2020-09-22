@@ -1,10 +1,15 @@
 # Author: Yanling Wang yuw17@psu.edu
 def getGradePoint(letter):
-  """use if/elif/elif/.../else structure to implement getGradePoint"""
+  """
+  You mus use if/elif/elif/.../else structure to implement getGradePoint
+  """
   return 0.0
 
 def run():
-  """use for i in range(n): loop to simplify hw2"""
+  """
+  You mus use for i in range(n): loop to simplify code in hw2
+  Use accumulators to collect info from each iteration to calculate GPA
+  """
   return
 
 if __name__ == "__main__":
