@@ -38,10 +38,10 @@ def print_n(s, n):
 def run():
   num = int(input("Enter an int: "))
   print(f"sum is {sum_n(num)}.")
-  line = input("Enter a string: ")
-  print_n(line, num)
   print(f"{num} has {num_of_divisors(num)} divisors.")
   print(f"There are {num_of_primes(num)} primes <= {num}.")
+  line = input("Enter a string: ")
+  print_n(line, num)
 
 if __name__ == "__main__":
   run()
