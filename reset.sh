@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Initializing reset of cmpsc131c repository..."
+echo "Initializing reset of cmpsc131python repository..."
 
 echo "Creating backup..."
 git add .
