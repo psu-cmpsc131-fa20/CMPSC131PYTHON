@@ -10,9 +10,8 @@ git push origin $branch
 echo "...done"
 
 echo "Rolling back commits..."
-git checkout b00ad82272133adbe0bc8b4f639c90829ccb01c0
 git branch -D master
-git checkout -b master
+git checkout -b master b00ad82272133adbe0bc8b4f639c90829ccb01c0
 echo "...done"
 
 echo "Running setup..."
