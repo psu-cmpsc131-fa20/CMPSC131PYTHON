@@ -4,7 +4,7 @@ echo "Initializing reset of cmpsc131python repository..."
 echo "Creating backup..."
 git add .
 git commit -m "All your old stuff"
-git checkout -b backup
+git checkout backup.$(date +"%s")
 git push origin backup
 echo "...done"
 
