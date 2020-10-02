@@ -4,8 +4,9 @@ echo "Initializing reset of cmpsc131python repository..."
 echo "Creating backup..."
 git add .
 git commit -m "All your old stuff"
-git checkout backup.$(date +"%s")
-git push origin backup
+branch=backup.$(date +"%s")
+git checkout -b $branch
+git push origin $branch
 echo "...done"
 
 echo "Rolling back commits..."
