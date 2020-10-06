@@ -11,7 +11,7 @@ echo "...done"
 
 echo "Rolling back commits..."
 git branch -D master
-git checkout -b master b00ad82272133adbe0bc8b4f639c90829ccb01c0
+git checkout -b master 4741ebdd0e1b7a55b2f28261a3ff62f45da9b18a 
 echo "...done"
 
 echo "Running setup..."
