@@ -73,7 +73,7 @@ def run():
   for i in range(0,1000000,1000):
     ans = binary_search_rec(i, t1, 0, len(t1)-1)
     assert(ans == i)
-    ans = binary_search_loop(i, t1, i, i+999)
+    ans = binary_search_rec(i, t1, i, i+999)
     assert(ans == i)
   end = time.perf_counter()
   print(f"{end-start} seconds to do binary_search_rec")
